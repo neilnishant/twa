@@ -1,0 +1,1329 @@
+{
+  "info": {
+    "_postman_id": "a830e35a-33ba-45a8-8f80-d78ccbc5b2de",
+    "name": "Documentation E2E ",
+    "description": "Documentation E2E Collection Description.\n\n# Environment Resolution\nEnvironment variable resolution - {{Var1}}\n\nGlobal variable resolution - {{GlobalVar1}}\n\nCollection variable resolution - {{CollectionVar1}}\n\n# Links\n[Link](google.com) - Link to Google\n\n[Link](http://google.com) - Link to Google with http://\n\n\n# Tables\nColumn 1 | Column 2 | Column 3 Large Naaaaaaaaaaaaaaaaaaame\n:--- | :---:|---:\n'left aligned' | 'centre aligned' | 'right aligned'\na | b | c\nalignment does not work | alignment does not work | alignment does not work \n**bold text** | *Italic Text* | ~~strike through~~\n`sdfgs` | [Link](google.com) | [Link](http://google.com) - Link to Google with http:// loooooooooooooooooooooooong text\n\n\n\n\n# Truncation\n## Large Table\nColumn 1 | Column 2 | Column 3 Large Naaaaaaaaaaaaaaaaaaame | Column 1 | Column 2 | Column 3 Large Naaaaaaaaaaaaaaaaaaame | Column 1 | Column 2 | Column 3 Large Naaaaaaaaaaaaaaaaaaame\n:--- | :---:|---: | :--- | :---:|---: | :--- | :---:|---:\n'left aligned' | 'centre aligned' | 'right aligned'\na | b | c\nalignment does not work | alignment does not work | alignment does not work \n**bold text** | *Italic Text* | ~~strike through~~\n`sdfgs` | [Link](google.com) | [Link](http://google.com) - Link to Google with http:// loooooooooooooooooooooooong text \n'left aligned' | 'centre aligned' | 'right aligned'\na | b | c\nalignment does not work | alignment does not work | alignment does not work \n**bold text** | *Italic Text* | ~~strike through~~\n`sdfgs` | [Link](google.com) | [Link](http://google.com) - Link to Google with http:// loooooooooooooooooooooooong text\n'left aligned' | 'centre aligned' | 'right aligned'\na | b | c\nalignment does not work | alignment does not work | alignment does not work \n**bold text** | *Italic Text* | ~~strike through~~\n`sdfgs` | [Link](google.com) | [Link](http://google.com) - Link to Google with http:// loooooooooooooooooooooooong text\n'left aligned' | 'centre aligned' | 'right aligned'\na | b | c\nalignment does not work | alignment does not work | alignment does not work \n**bold text** | *Italic Text* | ~~strike through~~\n`sdfgs` | [Link](google.com) | [Link](http://google.com) - Link to Google with http:// loooooooooooooooooooooooong text\n'left aligned' | 'centre aligned' | 'right aligned'\na | b | c\nalignment does not work | alignment does not work | alignment does not work \n**bold text** | *Italic Text* | ~~strike through~~\n`sdfgs` | [Link](google.com) | [Link](http://google.com) - Link to Google with http:// loooooooooooooooooooooooong text\n'left aligned' | 'centre aligned' | 'right aligned'\na | b | c\nalignment does not work | alignment does not work | alignment does not work \n**bold text** | *Italic Text* | ~~strike through~~\n`sdfgs` | [Link](google.com) | [Link](http://google.com) - Link to Google with http:// loooooooooooooooooooooooong text\n\n## Horizontal Truncation\nColumn 1 | Column 2 | Column 3 Large Naaaaaaaaaaaaaaaaaaame | Column 1 | Column 2 | Column 3 Large Naaaaaaaaaaaaaaaaaaame | Column 1 | Column 2 | Column 3 Large Naaaaaaaaaaaaaaaaaaame\n:--- | :---:|---: | :--- | :---:|---: | :--- | :---:|---:\n\n\n## Large code\n```\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlightingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nvar s = \"JavaScript syntax highlighting\";\nalert(s);\nfont size in editor\n```\n\nnormal font size 12",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Descriptions",
+      "item": [
+        {
+          "name": "Request Name",
+          "_postman_id": "89316d3b-6b7b-405e-8513-a136ed0dbdcc",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "warning": "Key contains invalid whitespace characters.",
+                "key": "Header 1 Key",
+                "value": "Header 1 Value",
+                "description": "Header 1 Description",
+                "type": "text"
+              },
+              {
+                "warning": "Key contains invalid whitespace characters.",
+                "key": "Header 2 Key  (checked off)",
+                "value": "Header 2 Value",
+                "description": "Header 2 Description",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "warning": "Key contains invalid whitespace characters.",
+                "key": "Header 3 Key",
+                "value": "Header 3 Value",
+                "description": "Header 3 Description",
+                "type": "text"
+              },
+              {
+                "warning": "Key contains invalid whitespace characters.",
+                "key": "Header 4 Key",
+                "value": "Header 4 Value",
+                "description": "Header 4 Description",
+                "type": "text"
+              },
+              {
+                "warning": "Key contains invalid whitespace characters.",
+                "key": "Header 5 Key (checked off)",
+                "value": "Header 5 Value",
+                "description": "Header 5 Description",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "warning": "Key contains invalid whitespace characters.",
+                "key": "Header 6 Key",
+                "value": "Header 6 Value",
+                "description": "Header 6 Description",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "form-data 1 Key",
+                  "value": "form-data 1 Value",
+                  "description": "**form-data 1 Description**",
+                  "type": "text"
+                },
+                {
+                  "key": "form-data 2 Key (checked off)",
+                  "value": "form-data 2 Value",
+                  "description": "form-data 2 Description",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "form-data 3 Key - FIle",
+                  "description": "form-data 3 Description",
+                  "type": "file",
+                  "value": null
+                },
+                {
+                  "key": "form-data 4 Key",
+                  "value": "form-data 4 Value",
+                  "description": "form-data 4 Description",
+                  "type": "text"
+                },
+                {
+                  "key": "form-data 5 Key (checked off)",
+                  "value": "form-data 5 Value",
+                  "description": "form-data 5 Description",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "form-data 6 Key",
+                  "value": "form-data 6 Value",
+                  "description": "form-data 6 Description",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": {
+              "raw": "/:pathKey?Param 3 Key =Param 3 Value&Param 4 Key =Param 4 Value&Param 6 Key =Param 6 Value&Param 1 Key =Param 1 Value",
+              "path": [
+                ":pathKey"
+              ],
+              "query": [
+                {
+                  "key": "Param 2 Key  (Checked off)",
+                  "value": "Param 2 Value",
+                  "description": "Param 2 Description",
+                  "disabled": true
+                },
+                {
+                  "key": "Param 3 Key ",
+                  "value": "Param 3 Value",
+                  "description": "*Param 3 Description* Italics"
+                },
+                {
+                  "key": "Param 4 Key ",
+                  "value": "Param 4 Value",
+                  "description": "Param 4 Description with new line\n\n#header in a param"
+                },
+                {
+                  "key": "Param 5 Key  (Checked off)",
+                  "value": "Param 5 Value",
+                  "description": "Param 5 Description with link\n\n[Link](http://google.com) - Link to Google with http://\n",
+                  "disabled": true
+                },
+                {
+                  "key": "Param 6 Key ",
+                  "value": "Param 6 Value"
+                },
+                {
+                  "key": "Param 1 Key ",
+                  "value": "Param 1 Value"
+                }
+              ],
+              "variable": [
+                {
+                  "key": "pathKey",
+                  "value": "Path Value",
+                  "type": "string",
+                  "description": "Path descriptions"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "urlencoded",
+          "_postman_id": "a7a8285a-cc27-460c-887f-8096cbe842a0",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "urlencoded 1 Key",
+                  "value": "urlencoded 1 Value",
+                  "description": "urlencoded 1 description",
+                  "type": "text"
+                },
+                {
+                  "key": "urlencoded 2 Key (Checked off)",
+                  "value": "urlencoded 2 Value",
+                  "description": "urlencoded 2 description",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "urlencoded 3 Key",
+                  "value": "urlencoded 3 Value",
+                  "description": "urlencoded 3 description",
+                  "type": "text"
+                },
+                {
+                  "key": "urlencoded 4 Key (Checked off)",
+                  "value": "urlencoded 4 Value",
+                  "description": "urlencoded 4 description",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "urlencoded 5 Key",
+                  "value": "urlencoded 5 Value",
+                  "description": "urlencoded 5 description",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "urlencoded": {}
+              }
+            },
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "raw Body",
+          "_postman_id": "e857d944-6185-4034-a0bf-62f0b41d68f6",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    123\n\n\n}",
+              "options": {
+                "raw": {}
+              }
+            },
+            "url": {
+              "raw": "?param1=hello {{CollectionVar1}}",
+              "query": [
+                {
+                  "key": "param1",
+                  "value": "hello {{CollectionVar1}}"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "id": "c417b2ef-7ea5-4ba8-9003-2d97238b8ff7",
+              "name": "raw Body",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    123456\n\n\n\n}",
+                  "options": {
+                    "raw": {}
+                  }
+                },
+                "url": {
+                  "raw": "?param1=world",
+                  "query": [
+                    {
+                      "key": "param1",
+                      "value": "world",
+                      "type": "text"
+                    }
+                  ]
+                }
+              },
+              "_postman_previewlanguage": null,
+              "header": null,
+              "cookie": [],
+              "responseTime": null,
+              "body": null
+            }
+          ]
+        },
+        {
+          "name": "GraphQL Body",
+          "_postman_id": "19398f4e-84ce-42aa-94b0-9578f2335d46",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "graphql",
+              "graphql": {
+                "query": "\n\n\n",
+                "variables": "\n\n\n"
+              },
+              "options": {
+                "graphql": {}
+              }
+            },
+            "url": "",
+            "description": "# header1\n## header2\n### header3"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "f28508d6-67ad-4665-9a22-3476d2231a21",
+      "description": "test\n\ntest123\n"
+    },
+    {
+      "name": "Environment Resolution",
+      "item": [
+        {
+          "name": "Environment Variable Resolution {{Var1}}",
+          "item": [
+            {
+              "name": "Request Name {{Var1}}",
+              "_postman_id": "bbe732d9-4b2e-43e2-857f-e421bf75bb2b",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "description": "{{Var1}}",
+                    "key": "{{Var1}}",
+                    "type": "text",
+                    "value": "{{Var1}}"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "{{Var1}}",
+                      "value": "{{Var1}}",
+                      "description": "{{Var1}}",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": {
+                  "raw": "?{{Var1}}={{Var1}}&",
+                  "query": [
+                    {
+                      "key": "{{Var1}}",
+                      "value": "{{Var1}}",
+                      "description": "{{var1}}"
+                    },
+                    {
+                      "key": "",
+                      "value": ""
+                    }
+                  ]
+                },
+                "description": "Environment Variable Resolution Request Description.\n\nEnvironment variable resolution - {{Var1}} \n\nStatus: Not resolved in App. Resolved in Dashboard."
+              },
+              "response": []
+            },
+            {
+              "name": "urlencoded",
+              "_postman_id": "10f05b3b-99ae-4322-a99c-7b2179728095",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "urlencoded",
+                  "urlencoded": [
+                    {
+                      "key": "{{Var1}}",
+                      "value": "{{Var1}}",
+                      "description": "{{Var1}}",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "urlencoded": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            },
+            {
+              "name": "req Body",
+              "_postman_id": "72047c2f-54f4-484d-b0e5-52e406faea74",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{{Var1}}",
+                  "options": {
+                    "raw": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            },
+            {
+              "name": "GraphQL Body",
+              "_postman_id": "9a640fc7-2555-44b8-80a5-0487b9df982e",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "{{Var1}}",
+                    "variables": "{{Var1}}"
+                  },
+                  "options": {
+                    "graphql": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "823a1dd5-4eac-4c1b-a559-57b87b12c310",
+          "description": "Documentation E2E Folder Description.\n\nEnvironment variable resolution - {{Var1}}\n\nEnvironment variable resolution - {{emptyVar}}\n\nStatus: Not resolved in App. Resolved in Dashboard.\n\n### Resolution inside links\n[Link](http://{{Var1}}) with Enironment variable\n\n### RESOLUTION INSIDE HEADERS - {{Var1}}\n",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "0b894e6b-cf34-4066-b30a-7c47c4292cf1",
+                "type": "text/javascript",
+                "exec": [
+                  ""
+                ]
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "id": "6f0d8b80-52bd-41ae-891e-bcfebf1207b3",
+                "type": "text/javascript",
+                "exec": [
+                  ""
+                ]
+              }
+            }
+          ],
+          "_postman_isSubFolder": true
+        },
+        {
+          "name": "Global Variable Resolution {{GlobalVar1}}",
+          "item": [
+            {
+              "name": "Request Name {{GlobalVar1}}",
+              "_postman_id": "08b157f2-d60b-49b2-8969-8143bd75a819",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "{{GlobalVar1}}",
+                    "value": "{{GlobalVar1}}",
+                    "description": "{{GlobalVar1}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "{{GlobalVar1}}",
+                      "value": "{{GlobalVar1}}",
+                      "description": "{{GlobalVar1}}",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": {
+                  "raw": "?{{GlobalVar1}}={{GlobalVar1}}",
+                  "query": [
+                    {
+                      "key": "{{GlobalVar1}}",
+                      "value": "{{GlobalVar1}}",
+                      "description": "{{GlobalVar1}}"
+                    }
+                  ]
+                },
+                "description": "Variable Resolution Request Description.\n\nGloabl variable resolution - {{GlobalVar1}} \n\nStatus: Not resolved in App. Resolved in Dashboard."
+              },
+              "response": []
+            },
+            {
+              "name": "urlencoded",
+              "_postman_id": "1a4654b6-61b6-4885-9941-05756a6f8799",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "urlencoded",
+                  "urlencoded": [
+                    {
+                      "key": "{{GlobalVar1}}",
+                      "value": "{{GlobalVar1}}",
+                      "description": "{{GlobalVar1}}",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "urlencoded": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            },
+            {
+              "name": "raw Body",
+              "_postman_id": "1fa6b7ad-e9ae-463c-836e-9279c78af6ef",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{{GlobalVar1}}",
+                  "options": {
+                    "raw": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            },
+            {
+              "name": "graphqlBody",
+              "_postman_id": "86af252b-a9bd-4b52-9542-3331406b9675",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "{{GlobalVar1}}",
+                    "variables": "{{GlobalVar1}}"
+                  },
+                  "options": {
+                    "graphql": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "9d590443-eeb5-482e-b65d-118d4d46aa35",
+          "description": "Documentation E2E Folder Description.\n\nGlobal variable resolution - {{GlobalVar1}}\n\nStatus: Not resolved\n\n### RESOLUTION INSIDE LINKS\n[Link](http://{{GlobalVar1}}) with Global variable",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "0b894e6b-cf34-4066-b30a-7c47c4292cf1",
+                "type": "text/javascript",
+                "exec": [
+                  ""
+                ]
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "id": "6f0d8b80-52bd-41ae-891e-bcfebf1207b3",
+                "type": "text/javascript",
+                "exec": [
+                  ""
+                ]
+              }
+            }
+          ],
+          "_postman_isSubFolder": true
+        },
+        {
+          "name": "Collection Variable Resolution {{CollectionVar1}}",
+          "item": [
+            {
+              "name": "Request Name {{CollectionVar1}}",
+              "_postman_id": "0317e18b-7265-4b99-9db3-9da4569329f8",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "{{CollectionVar1}}",
+                    "value": "{{CollectionVar1}}",
+                    "description": "{{CollectionVar1}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "{{CollectionVar1}}",
+                      "value": "{{CollectionVar1}}",
+                      "description": "{{CollectionVar1}}",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": {
+                  "raw": "?{{CollectionVar1}}={{CollectionVar1}}",
+                  "query": [
+                    {
+                      "key": "{{CollectionVar1}}",
+                      "value": "{{CollectionVar1}}",
+                      "description": "{{CollectionVar1}}"
+                    }
+                  ]
+                },
+                "description": "Variable Resolution Request Description.\n\nCollection variable resolution - {{CollectionVar1}}\n\nStatus: Not resolved in App. Resolved in Dashboard.\n\n```\nfont size in editor\nCAPITAL LETTERS\n1234567890\n```\nnormal font size\n\nCAPITAL LETTERS\n\n1234567890"
+              },
+              "response": []
+            },
+            {
+              "name": "urlencoded",
+              "_postman_id": "da9483ca-7387-4561-85f8-ecee0c506405",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "urlencoded",
+                  "urlencoded": [
+                    {
+                      "key": "{{CollectionVar1}}",
+                      "value": "{{CollectionVar1}}",
+                      "description": "{{CollectionVar1}}",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "urlencoded": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            },
+            {
+              "name": "reqBody",
+              "_postman_id": "10d3726a-a7a6-43ad-9d39-d14625750665",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{{CollectionVar1}}",
+                  "options": {
+                    "raw": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            },
+            {
+              "name": "graphqlBody",
+              "_postman_id": "6afece99-df71-409d-b57e-7ce7d0ecd5a7",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "apikey",
+                  "apikey": {}
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "{{CollectionVar1}}",
+                    "variables": "{{CollectionVar1}}"
+                  },
+                  "options": {
+                    "graphql": {}
+                  }
+                },
+                "url": ""
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "f25cad9e-bb76-4b5b-b683-66513ad14b3d",
+          "description": "Documentation E2E Folder Description.\n\nCollection variable resolution - {{CollectionVar1}}\n\nStatus: Not resolved in App. Resolved in Dashboard.\n\n### RESOLUTION INSIDE LINKS\n[Link](http://{{CollectionVar1}}) with Global variable",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "0b894e6b-cf34-4066-b30a-7c47c4292cf1",
+                "type": "text/javascript",
+                "exec": [
+                  ""
+                ]
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "id": "6f0d8b80-52bd-41ae-891e-bcfebf1207b3",
+                "type": "text/javascript",
+                "exec": [
+                  ""
+                ]
+              }
+            }
+          ],
+          "_postman_isSubFolder": true
+        }
+      ],
+      "_postman_id": "9972dd3b-b459-4d37-941b-0fed687bcf20"
+    },
+    {
+      "name": "Auth Info",
+      "item": [
+        {
+          "name": "No auth",
+          "item": [
+            {
+              "name": "No Auth inherited from parent",
+              "_postman_id": "66db0f9e-57fa-44af-85d9-2a9ab5613c61",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": ""
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "319c091b-84b5-41e2-994d-912d77298631",
+          "auth": {
+            "type": "noauth"
+          },
+          "_postman_isSubFolder": true
+        },
+        {
+          "name": "No auth",
+          "_postman_id": "c986dc18-68ed-4fb0-93a8-18d3c4338938",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Basic Auth inherited",
+          "_postman_id": "27ffff74-9e29-4229-8989-4553fd7ec535",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        },
+        {
+          "name": "Basic Auth no info",
+          "_postman_id": "47170851-cdd2-4800-8eed-7f5cea00e931",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": {
+                "password": "",
+                "username": ""
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Basic Auth environments",
+          "_postman_id": "94f1fd1e-fe19-413c-a92b-4736edb2dbe3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "apikey",
+              "apikey": {
+                "value": "{{value}}",
+                "key": "{{key}}"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Basic Auth deleted info",
+          "_postman_id": "0f9e5dca-a86b-493d-a919-45f2afcdbe45",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": {
+                "password": "",
+                "username": ""
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "API Key header",
+          "_postman_id": "4b3dd6e7-4f71-4b53-b989-660a5f62735c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "apikey",
+              "apikey": {
+                "value": "123456",
+                "key": "api_key"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "API Key header Environments",
+          "_postman_id": "c92003cd-ea65-4829-9f5c-c0b908790953",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "apikey",
+              "apikey": {
+                "value": "{{value}}",
+                "key": "{{key}}"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "API Key param",
+          "_postman_id": "4df877c2-25eb-499f-8ea1-ebfee4c57859",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "apikey",
+              "apikey": {
+                "in": "query",
+                "value": "123456",
+                "key": "api_key"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Bearer Token",
+          "_postman_id": "046370de-1695-4d30-849f-6e0ef8d69527",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "xyz-espn-cric-info"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Digest Auth",
+          "_postman_id": "ccb1c274-0b29-4938-acf2-9fd66a9f5d3f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "digest",
+              "digest": {
+                "realm": "xyz@postman.com",
+                "password": "xyz123",
+                "username": "name@postman.com",
+                "algorithm": "MD5"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "OAuth 1.0 Header",
+          "_postman_id": "9d67523f-baf0-492f-93d2-46c17a63674d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "oauth1",
+              "oauth1": {
+                "disableHeaderEncoding": false,
+                "addEmptyParamsToSign": true,
+                "addParamsToHeader": true,
+                "tokenSecret": "token_secret_value",
+                "token": "xyz-espn-cric-in ro",
+                "consumerSecret": "secret_value",
+                "consumerKey": "consumer_key_value",
+                "signatureMethod": "HMAC-SHA1",
+                "version": "1.0"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "OAuth 1.0 Body/URL",
+          "_postman_id": "c3fbf693-eb9c-451e-a5a5-7e33701c816b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "oauth1",
+              "oauth1": {
+                "tokenSecret": "token_secret_value",
+                "token": "xyz-espn-cric-in ro",
+                "consumerSecret": "secret_value",
+                "consumerKey": "consumer_key_value",
+                "signatureMethod": "HMAC-SHA1",
+                "version": "1.0",
+                "addParamsToHeader": false,
+                "addEmptyParamsToSign": false
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": {
+              "raw": "?",
+              "query": [
+                {
+                  "key": null,
+                  "value": null,
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "OAuth 2.0 Header",
+          "_postman_id": "99703add-2ea8-465f-8791-288773f2aa42",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "Xyz-espn-cric-info",
+                "addTokenTo": "header"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "OAuth 2.0 Copy",
+          "_postman_id": "0faac82a-dc2c-4493-976e-66ed78bb499b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessToken": "{{CollectionVar1}}",
+                "addTokenTo": "queryParams"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Hawk Authentication",
+          "_postman_id": "99993aa7-e3be-4b84-b3ff-59ce04751c65",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "hawk",
+              "hawk": {
+                "authKey": "espn_cric-info",
+                "authId": "HawkID",
+                "includePayloadHash": true,
+                "algorithm": "sha256"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "AWS Signature",
+          "_postman_id": "3e741f3f-598b-4e20-bd3c-aa1ccfb9399b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "awsv4",
+              "awsv4": {}
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "NTLM",
+          "_postman_id": "8941a904-b0bc-472e-949c-8265ae92a6e6",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "ntlm",
+              "ntlm": {}
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Akamai",
+          "_postman_id": "c1c7623c-378f-40b8-8350-68a934db7692",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "edgegrid",
+              "edgegrid": {}
+            },
+            "method": "GET",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        },
+        {
+          "name": "Get Order",
+          "_postman_id": "f875a28f-93f6-41a0-80ad-f2d30dca8921",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "addTokenTo": "header"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "/v2/eats/order/:order_id",
+              "path": [
+                "v2",
+                "eats",
+                "order",
+                ":order_id"
+              ],
+              "variable": [
+                {
+                  "key": "order_id",
+                  "value": "",
+                  "type": "string",
+                  "description": "Unique identifying string for an order on Uber Eats"
+                }
+              ]
+            },
+            "description": "This Get Order Details endpoint retrieves all details for a single order on Uber Eats"
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "_postman_id": "e8c98937-4aab-4fa9-ba1f-38d77be63708",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": {}
+            },
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "7a4c609d-4758-4f47-8095-49d1b1f1fca9",
+      "auth": {
+        "type": "basic",
+        "basic": {}
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "0a4f81e4-63c7-4dc8-bfae-7dda159d630f",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "id": "69def3b3-e231-482f-b374-d1604fb49801",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Empty Folder",
+      "item": [
+        {
+          "name": "Empty Request",
+          "_postman_id": "aaf791ad-8614-4655-8e79-d01ec4e8577b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "d2f8c8c3-dc3b-4dbc-8cba-57c48d4acb44"
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "e402b97b-968a-4092-9f94-192ca52875d1",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "d9b4dfb0-cb09-46df-895d-3b212723e298",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "8079fe58-74e2-4dad-8f11-5150d283e845",
+      "key": "CollectionVar1",
+      "value": "CollectionVar1_resolved_init",
+      "type": "string"
+    }
+  ]
+}
