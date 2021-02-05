@@ -1,0 +1,93 @@
+{
+  "info": {
+    "_postman_id": "345c4cc6-fb98-4a80-900f-34ce6c1e14f0",
+    "name": "My Collection Copy",
+    "description": "This is a test collection!",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Request 1",
+      "_postman_id": "fcf223a4-48a4-41b9-b27e-79cbe2a9eee1",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.postman-echo.com/get?param1=value1",
+          "protocol": "https",
+          "host": [
+            "www",
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "get"
+          ],
+          "query": [
+            {
+              "key": "param1",
+              "value": "value1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "one more",
+      "_postman_id": "50bcff23-cbeb-4b69-b82e-ddba3de2d77a",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": ""
+      },
+      "response": []
+    },
+    {
+      "name": "test",
+      "_postman_id": "6022ee0d-3880-49a9-a2cc-12c9a54c2155",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": ""
+      },
+      "response": []
+    },
+    {
+      "name": "this is the fourth req",
+      "_postman_id": "017f8336-71d8-4202-915b-550e721134ab",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "",
+        "description": "some description"
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "_postman_id": "d1077314-c6cd-4961-bf12-3d45717cb96a",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    }
+  ]
+}
